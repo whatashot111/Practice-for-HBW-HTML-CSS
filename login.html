@@ -5,7 +5,15 @@
     </head>
     <body>
         <div id="body-container">
-            <span>LOGIN</span>
+            <form id="login-form" action="index.html">
+                <label for="username">Username: </label>
+                <input type="text" name="username" autocomplete="off" required placeholder="Enter Username"/>
+                <br/>
+                <label for="password">Password: </label>
+                <input type="password" name="password" required placeholder="Enter Password"/>
+                <br/>
+                <button type="submit" value="login">Login</button>
+            </form>
         </div>
     </body>
 </html>
