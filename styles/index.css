@@ -1,0 +1,14 @@
+#logo > img {
+    height: 60px;
+    width: 60px;
+}
+
+.city-images > img {
+    height: 150px;
+    width: 150px;
+}
+
+.city-images > a > img {
+    height: 150px;
+    width: 150px;
+}

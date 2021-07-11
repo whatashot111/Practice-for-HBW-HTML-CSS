@@ -1,0 +1,9 @@
+#logo > a > img {
+    height: 60px;
+    width: 60px;
+}
+
+.hotels > img {
+    height: 200px;
+    width: 250px;
+}
