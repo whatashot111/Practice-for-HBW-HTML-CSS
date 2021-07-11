@@ -1,3 +1,11 @@
+#headerDiv {
+    background-color: rosybrown;
+}
+
+#footerDiv {
+    background-color: rosybrown;
+}
+
 #logo > a > img {
     height: 60px;
     width: 60px;
@@ -6,4 +14,10 @@
 .hotels > img {
     height: 200px;
     width: 250px;
+}
+
+.hotels {
+    margin: 2%;
+    background-color: rgb(132,136,139);
+    width: 40%;
 }

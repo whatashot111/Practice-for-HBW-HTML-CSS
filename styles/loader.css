@@ -1,0 +1,10 @@
+#loader {
+    width: 70px;
+    height: 70px;
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top-color: #444444;
+    margin: 0 auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
