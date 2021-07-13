@@ -3,20 +3,31 @@
     width: 60px;
 }
 
-.hotels > img {
-    height: 200px;
-    width: 250px;
-}
-
-.hotels > a > img {
+.hotels-image > img {
     height: 200px;
     width: 250px;
 }
 
 .hotels {
     margin: 2%;
-    background-color: rgb(132,136,139);
+    background-color: lightgray;
     width: 40%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hotels > a {
+    display: flex;
+    flex-direction: row;
+}
+
+.hotels-brief {
+    margin-left: 3%;
+}
+
+#blank {
+    background-color: #e0e0e0;
 }
 
 #map {
@@ -27,6 +38,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #radisson > a {
@@ -46,6 +58,10 @@
 }
 
 #list-view-button {
-    margin-left: 39%;
-    margin-right: 2%;
+    margin-left: 42%;
+    margin-right: 4%;
+}
+
+#contentDiv {
+    height: 700px;
 }

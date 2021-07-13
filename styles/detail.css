@@ -4,15 +4,55 @@
 }
 
 #radisson-detail-image > img {
-    height: 500px;
+    height: 350px;
     width: 500px;
     margin: 2% 4% 0%;
 }
 
 #radisson-detail-form {
     margin: 0% 4% 1%;
+    width: 25%;
 }
 
 #radisson-detail-description {
     margin: 1% 4% 2%;
+}
+
+#imageAndFormDiv {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 2%;
+    height: 400px;
+    width: 95%;
+}
+
+#radisson-detail-image {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+#radisson-detail-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.label {
+    float:left;
+    width: 25%;
+}
+
+.input {
+    float: left;
+    width: 75%;
+}
+
+#bookNow {
+    padding: 2%;
+}
+
+.headings {
+    font-family: cursive;
 }
