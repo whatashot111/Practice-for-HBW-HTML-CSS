@@ -10,7 +10,7 @@
 
 #search {
     background-color: #f1f1f1;
-    height: 20px;
+    height: 40px;
     width: 25%;
     align-self: center;
     border: 1px solid white;
@@ -90,4 +90,26 @@
     color:black;
     text-decoration: none;
     margin-bottom: 2%;
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.label {
+    float: left;
+    clear: left;
+    height: 50px;
+    width: 100px;
+}
+
+.input {
+    float: left;
+    height: 50px;
+}
+
+#contact-modal-email {
+    margin-top: 3%;
 }

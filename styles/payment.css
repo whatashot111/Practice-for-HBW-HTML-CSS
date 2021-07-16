@@ -63,3 +63,25 @@
 strong {
     font-family: cursive;
 }
+
+.modal-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.label1 {
+    float: left;
+    clear: left;
+    height: 50px;
+    width: 100px;
+}
+
+.input1 {
+    float: left;
+    height: 50px;
+}
+
+#contact-modal-email {
+    margin-top: 3%;
+}

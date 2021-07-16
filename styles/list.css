@@ -20,6 +20,8 @@
 .hotels > a {
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+    color: black;
 }
 
 .hotels-brief {
@@ -64,4 +66,47 @@
 
 #contentDiv {
     height: 700px;
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.label {
+    float: left;
+    clear: left;
+    height: 50px;
+    width: 100px;
+}
+
+.input {
+    float: left;
+    height: 50px;
+}
+
+#contact-modal-email {
+    margin-top: 3%;
+}
+
+.hotels:hover {
+    background-color: rosybrown;
+}
+
+.nav-pills {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.radisson-detail-text {
+    text-decoration: none;
+    color: black;
+}
+
+#radisson > a {
+    text-decoration: none;
+    color: black;
 }

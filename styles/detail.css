@@ -37,22 +37,59 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-}
-
-.label {
-    float:left;
     width: 25%;
 }
 
-.input {
-    float: left;
-    width: 75%;
-}
-
 #bookNow {
-    padding: 2%;
+    padding: 8%;
 }
 
 .headings {
     font-family: cursive;
 }
+
+.modal-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.label1 {
+    float: left;
+    clear: left;
+    height: 50px;
+    width: 100px;
+}
+
+.input1 {
+    float: left;
+    height: 50px;
+}
+
+#contact-modal-email {
+    margin-top: 3%;
+}
+
+#formElement6 {
+    margin-top: 2%;
+    align-self: center;
+}
+
+#booking-form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.label {
+    display: inline;
+    float: left;
+}
+
+.input {
+    display: inline;
+    float: right;
+}
+

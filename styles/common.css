@@ -55,11 +55,6 @@ html, body {
     margin-left: 2%;
 }
 
-#contact > a {
-    color:black;
-    text-decoration: none;
-}
-
 #footerDiv > #socialMediaLogos {
     float: right;
     margin-right: 2%;
